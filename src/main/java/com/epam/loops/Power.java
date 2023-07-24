@@ -5,7 +5,7 @@ public class Power {
         for (int i = 1; i <= power; i++) {
             result *= numberToPrint;
         }
-        System.out.println(numberToPrint + " raised to the power of " + power + " is: " + result);
+        System.out.println(result);
     }
 
     public static void main(String[] args) {

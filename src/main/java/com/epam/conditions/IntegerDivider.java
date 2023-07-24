@@ -6,12 +6,12 @@ public class IntegerDivider {
             int result = dividend / divider;
             int multipliedResult = result * divider;
             if (multipliedResult == dividend) {
-                System.out.println("Can be divided completely");
+                System.out.println("can be divided completely");
             } else {
-                System.out.println("Cannot be divided completely");
+                System.out.println("cannot be divided completely");
             }
         } else {
-            System.out.println("Division by zero");
+            System.out.println("division by zero");
         }
     }
 }

@@ -3,15 +3,15 @@ package com.epam.conditions;
 public class CoordinatePane {
     public void printQuadrant(int x, int y) {
         if (x > 0 && y > 0) {
-            System.out.println("First");
+            System.out.println("first");
         } else if (x < 0 && y > 0) {
-            System.out.println("Second");
+            System.out.println("second");
         } else if (x < 0 && y < 0) {
-            System.out.println("Third");
+            System.out.println("third");
         } else if (x > 0 && y < 0) {
-            System.out.println("Fourth");
+            System.out.println("fourth");
         } else {
-            System.out.println("Zero");
+            System.out.println("zero");
         }
     }
 }
